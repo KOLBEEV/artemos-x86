@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "ArtemOS x86",
+            "compilerPath": "/home/akolbeev/opt/cross/bin/i686-elf-gcc",
+            "intelliSenseMode": "linux-gcc-x86",
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++17",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/akolbeev/opt/cross/lib/gcc/i686-elf/14.2.0/include"
+            ],
+            "defines": [
+                "__i386__",
+                "__KERNEL__"
+            ],
+            "compilerArgs": [
+                "-ffreestanding",
+                "-fno-pie",
+                "-fno-stack-protector"
+            ]
+        }
+    ],
+    "version": 4
+}
